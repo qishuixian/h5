@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*动画css */
+/*animation-fill-mode:both*/
+.page_moveTwinkling { 
+	animation:moveTwinkling .3s ease-in-out both; 
+	-webkit-animation:moveTwinkling .3s ease-in-out both;
+	-moz-animation:moveTwinkling .3s ease-in-out both;
+	-o-animation:moveTwinkling .3s ease-in-out both;
+	-ms-animation:moveTwinkling .3s ease-in-out both;
+}
+.page_moveVote { 
+	animation:moveVote 1s ease;                       
+	-webkit-animation:moveVote 1s ease;
+	-moz-animation:moveVote 1s ease;
+	-o-animation:moveVote 1s ease;
+	-ms-animation:moveVote 1s ease;
+}
+.page_moveLeft { 
+	animation: moveLeft ease 0.5s 1 both;                       
+	-webkit-animation: moveLeft ease 0.5s 1 both;
+	-moz-animation: moveLeft ease 0.5s 1 both;
+	-o-animation: moveLeft ease 0.5s 1 both;
+	-ms-animation: moveLeft ease 0.5s 1 both;
+}
+.page_moveLeft1 { 
+	animation: moveLeft1 ease 0.5s 1 both;                       
+	-webkit-animation: moveLeft1 ease 0.5s 1 both;
+	-moz-animation: moveLeft1 ease 0.5s 1 both;
+	-o-animation: moveLeft1 ease 0.5s 1 both;
+	-ms-animation: moveLeft1 ease 0.5s 1 both;
+}
+.page_moveLeft2 { 
+	animation: moveLeft2 2.5s ease 0.5s 1 both;                       
+	-webkit-animation:moveLeft2 2.5s ease 0.5s 1 both;
+	-moz-animation: moveLeft2 2.5s ease 0.5s 1 both;
+	-o-animation: moveLeft2 2.5s ease 0.5s 1 both;
+	-ms-animation: moveLeft2 2.5s ease 0.5s 1 both;
+}
+.page_moveRight { 
+	animation: moveRight 1s ease 0.5s 1 both;                       
+	-webkit-animation: moveRight 1s ease 0.5s 1 both;
+	-moz-animation: moveRight 1s ease 0.5s 1 both;
+	-o-animation: moveRight 1s ease 0.5s 1 both;
+	-ms-animation: moveRight 1s ease 0.5s 1 both;
+}
+.page_moveRight2 { 
+	animation:moveRight2 1.5s ease 0.5s 1 both;                       
+	-webkit-animation: moveRight2 1.5s ease 0.5s 1 both;
+	-moz-animation: moveRight2 1.5s ease 0.5s 1 both;
+	-o-animation: moveRight2 1.5s ease 0.5s 1 both;
+	-ms-animation: moveRight2 1.5s ease 0.5s 1 both;
+}
+.page_fadeInUp { 
+	animation: fadeInUp 1.5s ease 0.5s 1 both;                       
+	-webkit-animation: fadeInUp 1.5s ease 0.5s 1 both;
+	-moz-animation: fadeInUp 1.5s ease 0.5s 1 both;
+	-o-animation: fadeInUp 1.5s ease 0.5s 1 both;
+	-ms-animation: fadeInUp 1.5s ease 0.5s 1 both;
+}
+.page_fadeInUp1 { 
+	animation: fadeInUp1 2.5s ease 0.5s 1 both;                       
+	-webkit-animation: fadeInUp1 2.5s ease 0.5s 1 both;
+	-moz-animation: fadeInUp1 2.5s ease 0.5s 1 both;
+	-o-animation: fadeInUp1 2.5s ease 0.5s 1 both;
+	-ms-animation: fadeInUp1 2.5s ease 0.5s 1 both;
+}
+.buttomFixed { 
+	animation: fadeInUp2 ease 0.5s infinite;                       
+	-webkit-animation: fadeInUp2  ease 0.5s  infinite;
+	-moz-animation: fadeInUp2  ease 0.5s infinite;
+	-o-animation: fadeInUp2  ease 0.5s infinite;
+	-ms-animation: fadeInUp2 ease 0.5s infinite;
+}
+.topFixed { 
+	animation: fadeInUp3 ease 0.5s infinite;                       
+	-webkit-animation: fadeInUp3  ease 0.5s  infinite;
+	-moz-animation: fadeInUp3  ease 0.5s infinite;
+	-o-animation: fadeInUp3  ease 0.5s infinite;
+	-ms-animation: fadeInUp3 ease 0.5s infinite;
+}

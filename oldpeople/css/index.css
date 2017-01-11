@@ -1,0 +1,282 @@
+
+body{
+	height: 100%;
+}
+.oldpeople-wrap{
+	max-width: 750px;
+	position: relative;
+	margin:0 auto;
+	padding:0;
+	height: 100%;
+	width: 16rem;
+	overflow: hidden;
+}
+.oldpeople-li{
+	width: 100%;
+	height: 100%;
+    background-color: rgb(228, 205, 156);
+    background-size: 100%;
+}
+.oldpeople-li.page1 img{
+	width: 100%;
+	height: 100%;
+}
+.oldpeople-li.page2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page2.jpg);
+	background-size: 100% 100%;
+}
+.oldpeople-li .plusvoteimg{
+	position: absolute;
+	top:4.5rem;
+	left: 50%;
+	width:197px;
+	height: 24px;
+	margin-left: -98.5px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.plusvotebtn{
+	position: absolute;
+	top:6rem;
+	width:197px;
+	left: 50%;
+	margin-left: -98.5px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.plusvotebtn .plusvoteall{
+	display: inline-block;
+	position: relative;
+    font-size: 13px;
+    line-height: 1;
+    padding: 5px 5px;
+    color: #222222;
+    background: rgba(255,255,255,.7);
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 0 2px 5px #bcbcbc;
+    -moz-box-shadow: 0 2px 5px #bcbcbc;
+    -o-box-shadow: 0 2px 5px #bcbcbc;
+    -webkit-box-shadow: 0 2px 5px #bcbcbc;
+}
+.plusvotebtn .plusvoteall.left{
+	margin-left: 30px;
+}
+.plusvotebtn .plusvoteall.right{
+	margin-left: 50px;
+}
+.plusvotebtn .plusvoteall:hover{
+	text-decoration: none;
+}
+.plusvotebtn .plusvoteitem{
+    opacity: 0;
+    color: #f59302;
+    position: absolute;
+    font-size: 14px;
+    left: 12px;
+    top: 4px;
+}
+.oldpeople-li.page3,
+.oldpeople-li.page4,
+.oldpeople-li.page5,
+.oldpeople-li.page6,
+.oldpeople-li.page7,
+.oldpeople-li.page8
+{
+	position: relative;
+}
+.oldpeople-li.page3 img,
+.oldpeople-li.page4 img,
+.oldpeople-li.page5 img,
+.oldpeople-li.page7 img,
+.oldpeople-li.page8 img
+{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}
+.oldpeople-li.page3 .page3-1{
+	width: 13.65333333333333rem;
+	height: 2.688rem;
+	top:2rem;
+}
+.oldpeople-li.page3 .page3-2{
+	width: 13.65333333333333rem;
+	height: 5.994666666666667rem;
+	top: 4rem;
+}
+.oldpeople-li.page3 .page3-3{
+	width: 13.65333333333333rem;
+	height: 4.736rem;
+	top: 9.5rem;
+}
+.oldpeople-li.page3 .page3-4{
+	width: 13.65333333333333rem;
+	height: 1.365333333333333rem;
+	top: 15rem;
+}
+.oldpeople-li.page3 .page3-5{
+	width: 13.65333333333333rem;
+	height: 2.090666666666667rem;
+	top: 17rem;
+}
+.oldpeople-li.page4 .page4-1{
+	width: 13.65333333333333rem;
+	height: 3.904rem;
+	top: 2rem;
+}
+.oldpeople-li.page4 .page4-2{
+	width: 13.65333333333333rem;
+	height: 6.976rem;
+	top: 6rem;
+}
+.oldpeople-li.page4 .page4-3{
+	width: 13.65333333333333rem;
+	height: 6.144rem;
+	top: 14rem;
+}
+.oldpeople-li.page5 .page5-1{
+	width: 13.65333333333333rem;
+	height: 1.472rem;
+	top:2rem;
+}
+.oldpeople-li.page5 .page5-2{
+	width: 13.65333333333333rem;
+	height: 1.962666666666667rem;
+	top: 3.5rem;
+}
+.oldpeople-li.page5 .page5-3{
+	width: 13.65333333333333rem;
+	height: 5.184rem;
+	top: 6.5rem;
+}
+.oldpeople-li.page5 .page5-4{
+	width: 13.65333333333333rem;
+	height: 5.226666666666667rem;
+	top: 12rem;
+}
+.oldpeople-li.page6 .page6-1{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+	width: 13.65333333333333rem;
+	height: 2.218666666666667rem;
+	top:2rem;
+}
+.oldpeople-li.page6 .page6-2{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+	width: 13.65333333333333rem;
+	height: 1.962666666666667rem;
+	top: 5rem;
+}
+.oldpeople-li.page6 .page6-3{
+	position: absolute;
+	width: 13.65333333333333rem;
+	height: 5.013333333333333rem;
+	top: 8rem;
+	left: -0.5rem;
+}
+.oldpeople-li.page6 .page6-4{
+	position: absolute;
+	width: 13.65333333333333rem;
+	height: 5.184rem;
+	left: 1.5rem;
+	top: 13.5rem;
+}
+.oldpeople-li.page6 .page6-5{
+	position: absolute;
+	width: 13.65333333333333rem;
+	height: 5.418666666666667rem;
+	left: 2.5rem;
+	top: 19rem;
+}
+.oldpeople-li.page7{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page7.jpg);
+	background-size: 100% 100%;
+}
+.oldpeople-li.page8 .page8-1{
+	width: 13.65333333333333rem;
+	height: 2.88rem;
+	top:0.5rem;
+}
+.oldpeople-li.page8 .page8-2{
+	width: 13.65333333333333rem;
+	height: 8.789333333333333rem;
+	top: 4rem;
+}
+.oldpeople-li.page8 .page8-3{
+	width: 13.65333333333333rem;
+	height: 9.344rem;
+	top: 14rem;
+}
+.top{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 16rem;
+	height: 2rem;
+	z-index: 100;
+}
+.topFixed{
+	position: absolute;
+	opacity: 0;
+	width: 1.386666666666667rem;
+	height:1.066666666666667rem; 
+	top: 0.5rem;
+	left: 50%;
+	background-image: url(../images/arrow1.png);
+	background-size: 100% 100%;
+	transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}
+.buttom{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 16rem;
+	height: 2rem;
+	z-index: 100;
+}
+.buttomFixed{
+	position: absolute;
+	opacity: 0;
+	width: 1.386666666666667rem;
+	height:1.066666666666667rem; 
+	bottom: 0.5rem;
+	left: 50%;
+	background-image: url(../images/arrow.png);
+	background-size: 100% 100%;
+	transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}

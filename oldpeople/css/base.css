@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{ margin:0;padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+a{ text-decoration:none; color:#333; outline: none;}
+a:hover{ text-decoration:underline; color:#f30; cursor:pointer;}
+ol li,ul li{ list-style:none;}
+// h1,h2,h3,h4,h5,h6 { font-size:100%;font-weight:normal; }
+address,caption,cite,code,dfn,em,strong,th,var,b,i { font-style:normal; font-weight:normal;}
+li,img{ vertical-align:middle;}
+.clearfix:after,.clear:after{ clear:both; content:"."; display:block; height:0; visibility:hidden;}
+.clearfix,.clear{ zoom:1;}
+.fl,.f-fl{ float:left; display:inline;}
+.fr,.f-fr{ float:right; display:inline;}
+.pr,.f-pr{ position:relative;}
+.pa{ position:absolute;}
+.f-prz{ position:relative; zoom:1;}
+.f-oh{ overflow:hidden;}
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.none{ display:none;}
