@@ -1,0 +1,624 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	font-family: Microsoft Yahei;
+}
+.none{
+	display: none;
+}
+a img {border:0}
+a {outline-style:none;color:#535353;text-decoration:none}
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;-webkit-text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal}
+body>div{margin:0 auto}
+a img {border:0}
+ul, ol, li {list-style-type:none;vertical-align:0}
+a {outline-style:none;color:#535353;text-decoration:none}
+a:hover { color: #D40000; text-decoration: none}
+img{
+	vertical-align: middle;
+}
+img,a,input{
+	outline-style:none;
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+.wxgq-bg,
+.act-account-lay{
+	height: 100%;
+	position: relative;
+	max-width: 16rem;
+	margin-left: auto;
+	margin-right: auto;
+	background: #c03731 url(../images/wxgq-bg.png) repeat-y;
+	background-size: 100% auto;
+}
+.act-account-lay{
+	position: absolute;
+	z-index: 100;
+}
+.clearfix:after,.clear:after{ clear:both; content:"."; display:block; height:0; visibility:hidden;}
+.clearfix,.clear{ zoom:1;}
+@media screen and (min-width:749px){ 
+	.wxgq-bg{
+		position: relative;
+		// min-height: 30.6853rem;
+	}
+	.act-account-lay{
+		// min-height: 30.6853rem;
+	}
+}
+.wxgq-top-pic img{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.wxgq-bg-ft{
+	position: absolute;
+	bottom: 0;
+	background: #c03731;
+}
+.wxgq-bg-ft img{
+	width: 100%;
+}
+.turntable img{
+	position: absolute;
+	top: 8.0427rem;
+	left: 2.1rem;
+	width: 11.8rem;
+	height: 11.8rem;
+	z-index: 20;
+}
+.wxgq-gift img{
+	position: absolute;
+	top: 17.1307rem;
+	right: 0.704rem;
+	width: 4.4rem;
+	height: 3.45rem;
+	z-index: 30;
+}
+.chance-btn{
+	position: absolute;
+	left: 50%;
+	top: 21.472rem;
+	width: 8.704rem;
+	height: 1.3867rem;
+	margin-left: -4.65rem;
+	background: url(../images/chance.png) no-repeat;
+	background-size: contain;
+	text-indent: 3.2rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff110c;
+	font-size: 0.725rem;
+	line-height: 1.3rem;
+}
+.ft-btnbox{
+	position: absolute;
+	top: 23.4987rem;
+	width: 100%;
+	text-align: center;
+}
+.ft-btnbox .mygift-btn{
+	display: inline-block;
+	width: 4.288rem; 
+	height: 1.3867rem;
+	background: url(../images/mygift-btn.png) no-repeat;
+	background-size: contain;
+	text-indent: -999em;
+}
+.ft-btnbox .account-btn{
+	display: inline-block;
+	width: 4.288rem;
+	height: 1.3867rem;
+	margin-left: 0.1493rem;
+	background: url(../images/activity-btn.png) no-repeat;
+	background-size: contain;
+	text-indent: -999em;
+}
+.ft-btnbox .share-btn{
+	background: url(../images/share-btn.png) no-repeat;
+	background-size: contain;
+}
+/* 奖品弹层 */ 
+.layout-opa{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 100;
+}
+.mygifts{
+	position: absolute;
+	top: 6.95rem;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+.mygifts .user{
+	display: inline-block;
+	width: 5.4rem;
+	height: 5.4rem;
+	background-color: #fff;
+	margin-bottom: 1.5rem;
+	border:1px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 .5rem .05rem rgba(254, 196, 56, 0.75);
+}
+.mygifts .user img{
+	width: 5.4rem;
+	height: 5.4rem;
+	border-radius: 50%;
+}
+.wxgq-gift-pic{
+	position: absolute; 
+	top: 3.264rem;
+	right: 4.6933rem;
+}
+.wxgq-gift-pic img{
+	width: 5.0773rem;
+	height: 3.7973rem;
+}
+.success-text img{
+	width: 9.984rem;
+	height: 2.2186rem;
+}
+.gift-none img{
+	display: block;
+	margin: 0 auto;
+}
+.gift-none .none-bg{
+    width: 8.5rem;
+}
+.gift-none .none-btn{
+    margin-top: 4rem;
+    width: 6.5rem;
+}
+.gift-info{
+	margin-top: 0.3rem;
+	font-size: 0.725rem;
+	color: #fff;
+}
+.gifts-btn{
+	display: inline-block;
+	width: 4.3rem;
+	height:1.35rem;
+	margin-top: 1.2rem;
+	background: url(../images/gifts-btn.png) no-repeat;
+	background-size: contain;
+	text-indent: -999em;
+}
+.wxgq-close{
+	position: absolute;
+	width: 1.05rem;
+	height: 1.05rem;
+	margin-left: -0.525rem;
+	background: url(../images/close.png) no-repeat;
+	background-size: contain;
+	text-indent: -999em;
+}
+.gifts-close{
+	right: 1.4rem;
+    top: -6.25rem;
+}
+/* 领取奖品 */ 
+.prize-con{
+	position: relative;
+	padding: 1.4rem 0.45rem 0;
+}
+.prize-con .gifticon{
+	position: absolute;
+	top: 0.704rem;
+	left: 50%;
+	width: 1.7066rem;
+	height: 1.7066rem;
+	margin-left: -0.8533rem;
+	background: #fff url(../images/gifticon.png) no-repeat;
+	background-size: contain;
+	border: 0.237rem solid #fff;
+	border-radius: 50%;
+}
+.prize-top img{
+	width: 100%;
+}
+.prize-ft img{
+	width: 100%;
+	vertical-align: top;
+}
+.prize-mid{
+	padding: 0 0.2986rem;
+	background: #fff;
+	text-align: center;
+}
+.prize-info-box{
+	padding: 0 0.5546rem;
+}
+.prize-mid .prize-info{
+	padding-top: 0.2133rem;
+	padding-bottom: 0.2133rem;
+	font-size: 0.7253rem;
+	font-weight: bold;
+	color: #000;
+}
+.prize-mid .prize-date{
+	font-size: 0.64rem;
+	color: #ababab;
+	line-height: 1.067rem;
+}
+.prize-mid .prize-mail{
+	font-size: 0.64rem;
+	color: #2bc77f;
+	line-height: 1.1947rem;
+}
+.prize-mid .prize-address{
+	font-size: 0.6826rem;
+	color: #ababab;
+	line-height: 1.152rem;
+}
+.prize-mid .prize-address input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.prize-btnbox{
+	margin-top: 0.0427rem;
+	padding: 0.32rem 0.5546rem 0;
+	border-top: 1px solid #c3c3c3;
+}
+.prize-btnbox .prize-btn{
+	display: inline-block;
+	width: 100%;
+	height: 1.4506rem;
+	background: #ffcb93;
+	font-size: 0.6826rem;
+	color: #ce6762;
+	line-height: 1.4506rem;
+	border-radius: 0.384rem;
+	text-decoration: none;
+}
+.prize-btnbox .prize-btn.active{
+	background-color: #e5e5e5;
+}
+/* 填写地址 */
+.prize-info-li{
+    padding-top: 0.2133rem;
+    padding-bottom: 0.2133rem;
+    font-size: 0.7253rem;
+    width: 100%;
+    color: #000;
+    font-size: 0.64rem;
+    line-height: 1.067rem;
+}
+.prize-info-message{
+	float: left;
+	margin-right: 0.25rem;
+	display: block;
+	width: 3.05rem;
+	line-height: 1.5rem;
+	height: 1.5rem;
+}
+.prize-info-li input{
+    float: left;
+    height: 1.5rem;
+    width: 9.75rem;
+    padding-left: 0.25rem;
+    background-color:#e5e5e5;
+    border:none; 
+    border-radius: 0.25rem;   
+}
+.prize-info-tixin{
+	width: 100%;
+	color: #ababab;
+	font-size: 0.7rem;
+	text-align: center;
+}
+.prize-info-tixin img{
+    width: 1rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.25rem;
+}
+.prize-info-what{
+	text-align: center;
+	font-size: 0.7rem;
+	margin-bottom: 0.5rem;
+}	
+.prize-info-what a{
+	color: #2bc77f;
+}
+/* 活动说明 */ 
+.act-account-lay{
+	width: 100%;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #c03731;
+	background-size: 100% 100%;
+
+}
+.lay-bg-ft{
+	position: absolute;
+    bottom: 0;
+    background: #c03731;
+    z-index: -1;
+}
+.lay-bg-ft img{
+	width: 100%;
+}
+.act-account-con{
+	padding: 0.6rem 0.9rem 0;
+}
+.act-title{
+	font-size: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+}
+.act-account{
+	margin-top: 0.25rem;
+	font-size: 0.725rem;
+	color: #fff;
+	line-height: 1rem;
+}
+/* 大转盘样式 */
+.turntable{
+	position: absolute;
+	top: 14.1rem;
+	z-index: 3;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 
+	-moz-transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+	-o-transform:translate(-50%,-50%); 
+	transform:translate(-50%,-50%);
+
+}
+.banner .turnplate{
+	display:block;
+	width:100%;
+	position:relative;
+}
+.banner .turnplate canvas.item{
+	width: 11.8rem;
+	height: 11.8rem;
+}
+.banner .turnplate img.pointer{
+	position:absolute;
+	width:31.5%;
+	height:auto;
+	left:34.6%;
+	top:32%;
+	cursor: pointer;
+}
+
+@media screen and (max-height:480px){
+	.turntable{
+		top: 13.5rem;
+	}
+	.wxgq-gift img{
+		top: 16.8rem;
+	}
+	.chance-btn {
+	    top: 20rem;
+	}
+	.ft-btnbox {
+	    top: 22rem;
+	}
+}
+/* 新用户注册 */
+.weixin-loging{
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weixin-loging .header{
+	text-align: center;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color:#242322;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.weixin-loging .header .come-back{
+	float: left;
+	display: block;
+	margin-left: 0.5rem;
+
+}
+.weixin-loging .header .come-back img{
+	width: 0.8rem;
+}
+.loging-shunxu{
+	position: relative;
+	padding-bottom: 1rem;
+}
+.loging-shunxu-verify{
+	float: left;
+	margin-left: 3.2rem;
+	text-align: center;
+	color: #e74e42;
+	font-size: 1rem;
+}
+.loging-shunxu .loging-shunxu-li{
+	margin-top: 1rem;
+	margin-bottom: 0.25rem;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 1.5rem;
+	text-align: center;
+	line-height: 3rem;
+	border: 0.05rem solid #e74e42;
+}
+.loging-shunxu .loging-shunxu-li .num{
+	display: block;
+	width: 2rem;
+	margin:0.5rem;
+	line-height: 2rem;
+	height: 2rem;
+	text-align: center;
+	border-radius: 1rem;
+	background-color: #e74e42;
+	color: #fff;
+	font-size: 0.7rem;
+}
+.loging-shunxu .active {
+	color: #cacecd;
+}
+.loging-shunxu .active .loging-shunxu-li{
+	border-color: #fff;
+}
+.loging-shunxu .active  .loging-shunxu-li .num{
+	background-color: #cacecd;
+}
+.loging-shunxu-line{
+    position: absolute;
+    width: 3rem;
+    height: 0rem;
+    border: 0.05rem solid #cacecd;
+    color: #cacecd;
+    bottom: 4rem;
+    left: 6.7rem;
+}
+.loging-message{
+	width: 15rem;
+	margin:0rem  0.5rem;
+	border-top: 0.05rem solid #cacecd;
+}
+.loging-message-call{
+	margin-top: 1rem;
+	height: 1.9rem;
+	width: 14.9rem;
+	line-height: 2rem;
+	border: 0.05rem solid #cacecd;
+	border-radius: 0.25rem;
+}
+.loging-message-call p{
+	float: left;
+	width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.25rem;
+	text-align: center;
+	border-right: 0.05rem solid #cacecd;
+}
+.loging-message-call p img{
+	height: 1.5rem;
+    vertical-align: 1rem;
+}
+.loging-message-call input{
+	float: left;
+	border: none;
+	width: 12rem;
+	padding-left: 0.25rem;
+	height: 1.9rem;
+	line-height: 1.9rem;
+	color: #595b5a;
+	font-size: 0.7rem;
+}
+.loging-message-verify{
+	margin-top: 1rem;
+}
+.loging-message-verify .message-verify{
+	float: left;
+	height: 1.9rem;
+	width: 6rem;
+	line-height: 2rem;
+	border: 0.05rem solid #cacecd;
+	border-radius: 0.25rem;
+}
+.loging-message-verify .message-verify p{
+	float: left;
+	width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.25rem;
+	text-align: center;
+	border-right: 0.05rem solid #cacecd;
+}
+.loging-message-verify .message-verify p img{
+    height: 0.9rem;
+    vertical-align: 0.2rem;
+}
+.loging-message-verify .message-verify input{
+	float: left;
+	border: none;
+	width: 3.5rem;
+	padding-left: 0.25rem;
+	height: 1.9rem;
+	line-height: 1.9rem;
+	color: #595b5a;
+	font-size: 0.7rem;
+}
+.loging-message-verify .message-verify-send{
+	display: block;
+	float: left;
+	font-size: 0.7rem;
+	color: #9b9b9b;
+	width: 4.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	margin-left: 0.5rem;
+	background-color: #e9e9e9;
+	border-radius: 0.25rem;
+}
+.loging-message-password{
+	margin-top: 1rem;
+	height: 1.9rem;
+	width: 14.9rem;
+	line-height: 2rem;
+	border: 0.05rem solid #cacecd;
+	border-radius: 0.25rem;
+}
+.loging-message-password p{
+	float: left;
+	width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.25rem;
+	text-align: center;
+	border-right: 0.05rem solid #cacecd;
+}
+.loging-message-password p img{
+	height: 1.3rem;
+    vertical-align: 1rem;
+}
+.loging-message-password input{
+	float: left;
+	border: none;
+	width: 12rem;
+	padding-left: 0.25rem;
+	height: 1.9rem;
+	line-height: 1.9rem;
+	color: #595b5a;
+	font-size: 0.7rem;
+}
+.loging-btn{
+	display: block;
+	margin: 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	width: 15rem;
+	background-color: #e74e42;
+	color: #fff;
+	font-size: 0.7rem;
+	text-align: center;
+	border-radius: 0.25rem;
+}
+.loging-btn:hover{
+	color: #fff;
+}
+.loging-buttom{
+	text-align: center;
+	color: #e74e42;
+	font-size: 0.8rem;
+
+}
+.loging-shunxu-success{
+	text-align: center;
+	color: #e74e42;
+	margin: 1.5rem 0rem;
+	font-size: 0.7rem;
+}
